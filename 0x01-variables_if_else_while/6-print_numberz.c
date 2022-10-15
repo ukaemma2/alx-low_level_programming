@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	char n;
+	int n;
 
 	for (n = 78; n <= 88; n++)
 	{
