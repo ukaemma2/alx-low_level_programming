@@ -1,20 +1,43 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * main - check the code for ALX School students.
+ * main - print_to_98 - prints numbers to 98
+ * @n: starting integer
  *
- * Return: Always 0.
+ * Description: prints all natural number from n - 98
+ *
+ * Return: void
  */
-int main(void)
+
+void print_to_98(int n)
+
 {
-    print_to_98(3);
-    _putchar('\n');
-    print_to_98(5);
-    _putchar('\n');
-    print_to_98(98);
-    _putchar('\n');
-    print_to_98(12);  
-    return (0);
+
+	if (n >= 98)
+
+	{
+
+		while (n > 98)
+
+			printf("%d, ", n--);
+
+		printf("%d\n", n);
+
+	}
+
+
+
+	else
+
+	{
+
+		while (n < 98)
+
+		printf("%d, ", n++);
+
+		printf("%d\n", n);
+
+	}
+
 }
-
-
