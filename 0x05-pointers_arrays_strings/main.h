@@ -7,6 +7,7 @@
  * int prototypes (int)
  */
 
+void puts2(char *str);
 void _puts(char *str);
 void print_rev(char *s);
 int _strlen(char *s);
