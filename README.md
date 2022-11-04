@@ -1,8 +1,8 @@
-#0x00. C - Hello, World
+# 0x00. C - Hello, World
 
 Project done during **Full Stack Software Engineering studies** at **ALX School**. Its aims is to learn C .
 
-#Technology
+# Technology
 
 * Tested on Ubuntu 20.04 LTS
 
